@@ -35,5 +35,5 @@ if __name__ == "__main__":
     print('A*B (numpy) \n', C2)
     print(f'Затраченное время: {endTime2 - startTime2} \n')
 
-    print(f'Рекомендуемое число потоков = {multiprocessing.cpu_count()}')
+    print(f'Рекомендуется использовать не больше {multiprocessing.cpu_count()} потоков')
 
